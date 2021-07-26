@@ -1,0 +1,289 @@
+.container{
+        font-family: "Frutiger Roman","Carnero Book",arial,sans-serif,arial,sans-serif;
+}
+.corona-image{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY62ZUVUL5Z-50EZGt3TB3kQsQcZLABI-6xg&usqp=CAU');
+        background-size: 100% 600px;
+        color: white;
+        height: 400px;
+        border-bottom-right-radius: 100px;
+        margin-top: 5px;
+        padding: 15px 20px;
+}
+.Responding{
+        font-size: 3rem;
+        margin-left: 10px;
+}
+#a{
+        margin-left: 10px;
+}
+.Response-VACCINES,
+.upper-image{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+}
+.Response{
+        width: 500px;
+        height: auto;
+        margin: 20px;
+        box-sizing: border-box;
+}
+.VACCINES{
+        width: 500px;
+        height: auto;
+        padding: 15px;
+        margin: 40px;
+        box-sizing: border-box;
+}
+.upper-image{
+        width: 100%;
+        overflow: hidden;
+        border: 2px solid greenyellow;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+        background-color:darkslategrey  
+}
+.image-txt{
+        color: white;
+        width: 500px;
+        height: auto;
+        margin: 20px;
+        box-sizing: border-box;
+}
+.img{
+        width: 500px;
+        height: 300px;
+        margin: 20px;
+        box-sizing: border-box;  
+}
+#LG{
+        width: 500px;
+        height: 300px;
+}
+@media screen and (max-width:1200px) {
+        .Response,
+        .VACCINES,
+        .img,
+        .image-txt,
+        .covax,
+        .totalconfirm,
+        .totaldeath,
+        .div1,
+        .div2,
+        .div3,
+        .div4,
+        .div5,
+        .div6,
+        .div7,
+        #LG{
+                width: 40%;
+        }
+}
+@media screen and (max-width:700px) {
+        .Response,
+        .VACCINES,
+        .img,
+        .image-txt,
+        .covax,
+        .totalconfirm,
+        .totaldeath,
+        .div1,
+        .div2,
+        .div3,
+        .div4,
+        .div5,
+        .div6,
+        .div7,
+        #LG{
+                width: 90%;
+        }
+}
+.covax{
+        font-size: 80px;
+        margin-top: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: wheat;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+}
+#btn{
+        background-color:white;
+        border: 1px solid black;
+        border-radius: 20px;
+        color:black;
+        padding: 16px 32px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 10px 2px;
+        cursor: pointer;
+}
+#btn:hover{
+        background-color:#850b00 ;
+        color: white;
+}
+p{
+        font-size: 1.2rem;
+}
+h3{
+        font-size: 1.5rem;
+}
+h4{
+        font-size: 1.5rem;
+        color: #fa9234;
+}
+h2{
+        font-size: 2.0rem;
+        color: #0070ba;;
+}
+hr.new4{
+        float: left;
+        width: 15%;
+        border-top: 2px solid #fa9234;
+}
+.global-data{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+}
+.totalconfirm{ 
+        text-align: center;
+        width: 370px;
+        margin: 20px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        overflow-x: scroll;
+        box-shadow: 5px 10px;
+}
+.totaldeath{
+        text-align: center;
+        width: 300px;
+        margin: 20px;
+        box-sizing: border-box;
+        border-radius: 15px; 
+        overflow-x: scroll; 
+        box-shadow: 5px 10px;
+}
+.Subscribe{
+        border: 2px solid black;
+        height: auto;
+        margin: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #850b00;
+        color: white;
+        border-radius: 10px;
+}
+#subs{
+        width: 90%;
+        padding: 20px 15px;
+        border-radius: 10px;
+}
+.footer2{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;       
+}
+.fa{
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+}
+.fa-linkedin{
+        background: #007bb5;
+        color: white;
+}
+.fa:hover{
+        opacity: 0.7;
+}   
+.fa-facebook{
+      background: #3B5998;
+      color: white;
+}
+.fa-github{
+        background-color: black;
+        color: white;
+}
+#p{
+        text-align: center;
+        font-size: 1.5rem;
+}
+ul{
+        list-style-type: none;
+        margin: 1px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #333;
+}   
+li{
+        float: left;
+}   
+li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+li a:hover:not(.active){
+        background-color: #111;
+}
+      
+.active{
+        background-color: #04AA6D;
+}
+.country-data{
+        text-align: center;
+        font-size: 2.0rem;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 4px 8px;
+        margin-top: 20px;
+        background-color:whitesmoke;
+        overflow-x: scroll;
+}
+.input{
+        text-align: center;
+}
+#int{
+        width: 30%;
+        padding: 15px 20px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        text-align: center;
+}
+.btn1{
+        padding: 15px 20px;
+        background-color: white;
+        color: black;
+        margin-left: 5px;
+        border-radius: 10px;
+}
+.btn1:hover{
+        background-color:#850b00;
+        color: white;
+}
